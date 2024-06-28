@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap');
+
+/*
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+*/
+:root {
+    --primary-color: #001A23;
+    --secundary-color: #31493C;
+    --accent1-color: #719876;
+    --accent2-color: #CDF5CC;
+    --accent3-color: #D8E7E9;
+
+    --heading-font: 'Caveat', cursive;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --nav-background-color: #719876;
+    --nav-link-color: rgb(62, 62, 163);
+    --nav-hover-link-color: rgb(133, 133, 202);
+    --nav-hover-background-color: #D8E7E9;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
